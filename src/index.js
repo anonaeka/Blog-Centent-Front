@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import MyRoute from "./myroute";
+import reportWebVitals from "./reportWebVitals";
+import NavbarComponent from "./components/NavbarComponent";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <NavbarComponent />
+    <MyRoute />
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <span class="navbar-text">Content-Blog MERN Stack by Anon</span>
+        </div>
+      </nav>
   </React.StrictMode>
 );
 
