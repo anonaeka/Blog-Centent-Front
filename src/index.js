@@ -10,9 +10,9 @@ root.render(
   <React.StrictMode>
     <NavbarComponent />
     <MyRoute />
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <span class="navbar-text">Content-Blog MERN Stack by Anon</span>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div className="container">
+          <span className="navbar-text">Content-Blog MERN Stack by Anon</span>
         </div>
       </nav>
   </React.StrictMode>
